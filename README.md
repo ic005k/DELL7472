@@ -26,7 +26,7 @@ CPU：i5-8250U
 
 1.我使用的是苹果原装网卡BCM94360CS2，所以驱动里面没有放任何无线网卡和蓝牙的驱动程序，大家自行根据自己的无线网卡型号放入相应的驱动。
 
-2.声卡驱动在kext目录里面，里面有详细的安装说明。声卡驱动源自：https://github.com/hackintosh-stuff/ComboJack
+2.声卡耳麦驱动在kext目录里面，里面有详细的安装说明，源自：https://github.com/hackintosh-stuff/ComboJack
 
 
 最后对所有的贡献者和参与者一并表示感谢！
