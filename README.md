@@ -11,7 +11,9 @@ Clover的配置文件已经非常稳定，之后不会再有大幅度的更新�
 
 3.关闭『Enable Legacy Option ROMs』
 
-目前完全支持11.0且兼容10.15等系统，功能及驱动等等一切正常。
+目前完全支持12.0且兼容11.0等系统，功能及驱动等等一切正常。
+
+如果需要安装Windows11，请在BIOS安全设置里面开启“PTT”。
 
 具体文件请到发行页面下载：https://github.com/ic005k/DELL7472/releases
 
