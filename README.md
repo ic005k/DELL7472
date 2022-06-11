@@ -10,6 +10,8 @@
 
 3.关闭『Enable Legacy Option ROMs』
 
+注意：Msr请自行解锁，如果不想解锁，可勾选“AppleXcpmCfgLock”
+
 目前完全支持12.0且兼容11.0等系统，功能及驱动等等一切正常。
 
 如果需要安装Windows11，请在BIOS安全设置里面开启“PTT”。
