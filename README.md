@@ -17,7 +17,7 @@
 
 ## 特别注意
 
-* <font color=red>Msr请自行解锁，如果不想解锁，可在配置文件里面勾选“AppleXcpmCfgLock”，否则引导过程中会卡住</font>
+* <font color=red> Msr请自行解锁，如果不想解锁，可在配置文件里面勾选“AppleXcpmCfgLock”，否则引导过程中会卡住 </font>
 
 * 如果需要安装Windows11，请在BIOS安全设置里面开启“PTT”
 
