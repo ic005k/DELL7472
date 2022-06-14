@@ -5,6 +5,8 @@
 
 * macOS13.0 beta
 
+* 一个512M FAT32分区用来存放EFI文件夹，ESP分区单独留给Win11使用，维护OC无需挂载ESP分区
+
 ## BIOS设置
 
 * 关闭『安全引导』
