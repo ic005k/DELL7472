@@ -1,8 +1,8 @@
 # DELL7472 OpenCore配置文件及驱动（也可供7572机型参考，二者主要存在屏幕大小的区别）
 
-## 本配置完全基于OpenCore，Clover上已不再测试和维护，请大家知悉。我目前的使用环境是：Windows11 + macOS13.0beta。
+## 本配置完全基于OpenCore，Clover上已不再测试和维护，请大家知悉。我目前的使用环境：Windows11 + macOS13.0beta。
 
-## 特别注意：安装使用黑苹果之前，需要在BIOS里面进行如下设置，3项设置缺一不可，都是必须要设置的，否则将会导致引导出现问题：
+## BIOS设置：安装使用黑苹果之前，需要在BIOS里面进行如下设置，3项设置缺一不可，否则将会导致引导出现问题：
 
 1.关闭『安全引导』
 
@@ -10,15 +10,15 @@
 
 3.关闭『Enable Legacy Option ROMs』
 
-## 其它设置和注意事项
+## 其它方面
 
-* 注意：Msr请自行解锁，如果不想解锁，可勾选“AppleXcpmCfgLock”
+* Msr请自行解锁，如果不想解锁，可在配置文件里面勾选“AppleXcpmCfgLock”。
 
-* 目前完全支持13.0且向下兼容，功能及驱动等等一切正常。
+* 目前完全支持13.0且向下兼容，功能及驱动等等一切正常（HDMI输出未做测试，可能存在问题）。
 
 * 如果需要安装Windows11，请在BIOS安全设置里面开启“PTT”。
 
-* 开启任何HiDPI分辨率的工具和方法可在此下载：https://github.com/usr-sse2/RDM
+* 设置任何HiDPI分辨率的工具和方法在此：https://github.com/usr-sse2/RDM
 
 EFI文件请到发行页面下载：https://github.com/ic005k/DELL7472/releases
 
@@ -59,4 +59,4 @@ EFI文件请到发行页面下载：https://github.com/ic005k/DELL7472/releases
 
 * MacOS11.0环境下，如果通过HDMI连接外屏，在没有睡眠唤醒的情况下，如果拔掉HDMI，则内屏会一直黑屏。在这之前，如果有睡眠唤醒的过程，则无此现象。
 
-最后对所有的贡献者和参与者一并表示感谢！
+### 最后对所有的贡献者和参与者一并表示感谢！
